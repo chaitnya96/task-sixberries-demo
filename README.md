@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# Users can create dynamic forms using Form Builder applications like google forms.
+There must me three pages
+## 1. Create form page
+● On the Create form page there will be a Button Add Question and Text Box to fill
+Form Name
+<img width="1629" alt="image" src="https://user-images.githubusercontent.com/35863085/218780676-1ecf8aaf-6fe5-4a57-8b84-127be10b93c1.png">
+<br />
+<img width="1811" alt="image" src="https://user-images.githubusercontent.com/35863085/218780544-2a0770ae-2573-4e33-a4fb-75683dcd544c.png">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+● On the Click of Add Question button, the Modal Popup should open with the below
+fields.
+○ 1. Question / Title (Textbox)
+<img width="934" alt="image" src="https://user-images.githubusercontent.com/35863085/218781058-42458a35-cf3a-4c8c-a3e4-a13e4d94eac4.png">
 
-## Available Scripts
+○ 2. Answer Type (Drop Down with these options. Text, Multichoice Checkbox,
+Single Select (radio)
+<img width="956" alt="image" src="https://user-images.githubusercontent.com/35863085/218781281-63e0b5d3-2736-4a9b-8db9-dee4ae4231b7.png">
 
-In the project directory, you can run:
+○ 3. If Answer Type is Multichoice then the text area will appear to enter each
+choice in separate lines.
+<img width="984" alt="image" src="https://user-images.githubusercontent.com/35863085/218781515-6b12843f-39ec-44cf-a39b-6367a8ad8986.png">
 
-### `npm start`
+● On click of an Add Button, the Question will be added to the form.
+<img width="1400" alt="image" src="https://user-images.githubusercontent.com/35863085/218781961-1bdbd25f-29c6-4118-bd98-0989038f4512.png">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+● After Saving form, The Slug or unique URL for the form will be generated which can
+be shared to a user to fill form details.
+<img width="946" alt="image" src="https://user-images.githubusercontent.com/35863085/218782563-c5e09af1-c23e-4a18-a35e-019030708e4c.png">
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 2. Listing form page
+● On the Listing Page list all forms created with Below fields. Form Name, Form URL,
+Created At, Total Responses (Optional Columns)
+<img width="1479" alt="image" src="https://user-images.githubusercontent.com/35863085/218782783-f51c409b-69f9-425d-b092-7a8f70acc3ed.png">
+## 3. Submit form page (where a user can add their responses to a form)
+<img width="1486" alt="image" src="https://user-images.githubusercontent.com/35863085/218783057-691650ed-d7c2-4327-9685-54b86769d848.png">
